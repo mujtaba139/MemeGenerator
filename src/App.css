@@ -42,10 +42,32 @@ body{
   
 }
 .generate-image{
-  max-width: 100%;
-  margin-left: 3%;
+ width: 50%;
+  display: block;
 }
 .header-image{
   height: 200%;
   margin-right: 6px;
+}
+.meme{
+  position: relative;
+}
+.meme-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0;
+  font-family: Impact, sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000;
+  color: #fff;
+  font-size: 80px;
+}
+
+.top {
+  top: 10px;
+}
+
+.bottom {
+  bottom: 10px;
 }
